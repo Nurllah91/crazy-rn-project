@@ -3,3 +3,14 @@
 
   /* font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif; */
+.heading-text{
+    font-family: 'Poppins', sans-serif !important;
+    /* font-family: 'Work Sans', sans-serif; */
+}
+.banner-sec{
+    background: linear-gradient(#00000057, #ff00005e), url(../images/background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
