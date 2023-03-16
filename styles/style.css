@@ -1,16 +1,20 @@
 /* google fonts link  */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
   /* font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif; */
 .heading-text{
-    font-family: 'Poppins', sans-serif !important;
-    /* font-family: 'Work Sans', sans-serif; */
+  font-family: 'Pacifico', cursive;
 }
 .banner-sec{
-    background: linear-gradient(#00000057, #ff00005e), url(../images/background-1.jpg);
+    background: linear-gradient(#0404048e,#0000009d, #ff00005e), url(../images/background-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
+}
+
+.bannerImageContainer{
+  display: flex;
+  flex-direction: row-reverse;
 }
